@@ -24,6 +24,7 @@ function currentSlide(n) {
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
     if (n > slides.length) {
         slideIndex = 1
     }
@@ -33,7 +34,11 @@ function showSlides(n) {
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
+    for (i = 0; i < dots.length; i++){
+        dots[i].className = dots[i].className.replace(" active", "")
+    }
     slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex-1].className += " active";
 }
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxqAyUNmJx_ZCCt2-T6JrkKKPu5L7FsB15y2T32fmjrVSa0_r1CCzdofFM_gfyAyAQ/exec';
 const form = document.forms['submit-to-google-sheet'];
