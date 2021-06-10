@@ -185,6 +185,101 @@ img{
     animation-name:fade;
     animation-duration:1.5s
 }
+.footer{
+    color:white;
+    background: linear-gradient(to left,#2C5364,#203A43,#0F2027);
+    height:250px;
+    padding-top:30px;
+    padding-left:50px;
+    padding-right:50px;
+  }
+  .lokasi h1{
+      position:relative;
+      bottom:40px;
+      margin-bottom :15px;
+  }
+  .contact{
+    float:right;
+    padding-left:10px;
+    
+  }
+  .contact h1{
+      position:relative;
+      bottom:40px;
+      text-align:left;
+    margin-bottom :15px;
+  }
+  .contact p{
+      position:relative;
+      bottom:40px;
+  margin-bottom :15px;
+  }
+  
+  .lokasi iframe{
+      position:relative;
+      bottom:40px;
+  }
+  
+  
+  .lokasi{
+    float:left;
+  
+  }
+  .logo{
+    float:left;
+    margin-top:20px;
+    padding-left:120px;
+  }
+  li{
+    background:white;
+    text-align:center;
+    border-radius:100%;
+    width:30px;
+    height:25px;
+    line-height:30px;
+    transition:all 0.5s ease;
+    display:block;
+    color:#333 ;
+    float:right;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:20px;
+    padding-left:20px;
+    margin-left:10px;
+    position:relative;
+      bottom:80px;
+  }
+  
+  
+  li img{
+      height:25px;
+      width:25px;
+      position:relative;
+      bottom:15px;
+      right:12px;
+  }
+  
+  
+  
+  li:hover{
+    background-color: rgba(255, 255, 255, 0.5)
+  }
+  
+  .copyright{
+      
+      height:20px;
+    width:1349px;
+    position:relative;
+      bottom:40px;
+  }
+  
+  .copyright h1{
+      padding-left:85px;
+      color:white;
+      font-size:15px;
+      position:relative;
+      right:710px;
+  }
 @-webkit-keyframes fade{
     from{
         opacity:.4
